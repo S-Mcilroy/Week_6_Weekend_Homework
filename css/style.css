@@ -117,7 +117,7 @@ li {
 #header-light {
     font-family: 'Poller One', cursive;
     color: blue;
-    text-decoration: underline yellowx;
+    text-decoration: underline yellow;
     -webkit-text-stroke: 0.1px yellow;
 }
 
