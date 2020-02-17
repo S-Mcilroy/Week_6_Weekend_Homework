@@ -1,0 +1,155 @@
+#title-header {
+  display: flex;
+  font-family: 'Poller One', cursive;
+  color: yellow;
+  -webkit-text-stroke: 1px black;
+  text-shadow: 0 0 50px yellow;
+  text-decoration: underline yellow;
+  justify-content: center;
+}
+
+#delete-all{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 255px;
+}
+
+#intro-text {
+  display: flex;
+  justify-content: center;
+  font-family: 'Poller One', cursive;
+  color: yellow;
+}
+
+#force-user-form{
+  display: flex;
+  justify-content: center;
+  font-family: 'Poller One', cursive;
+  color: yellow;
+}
+
+.button-submit {
+  display: flex;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  height: 50px;
+  width: 120px;
+  font-family: 'Poller One', cursive;
+  -webkit-text-stroke: 1px black;
+  text-shadow: 0 0 50px yellow;
+  font-size: 15px;
+  color: yellow;
+  text-decoration: underline yellow;
+}
+
+
+.Light {
+  background-color: blue;
+}
+
+.Blue {
+  border: black solid 5px;
+  box-shadow: 0 0 0 5pt blue;
+  border-radius: 15px;
+}
+
+.Red {
+  border: black solid 5px;
+  box-shadow: 0 0 0 5pt red;
+  border-radius: 15px;
+}
+
+.Yellow {
+  border: black solid 5px;
+  box-shadow: 0 0 0 5pt yellow;
+  border-radius: 15px;
+}
+
+.Purple {
+  border: black solid 5px;
+  box-shadow: 0 0 0 5pt purple;
+  border-radius: 15px;
+}
+
+.Green {
+  border: black solid 5px;
+  box-shadow: 0 0 0 5pt green;
+  border-radius: 15px;
+}
+
+.Dark {
+  background-color: red;
+}
+
+li {
+  list-style: none;
+  margin: 10px;
+  padding: 5px;
+}
+
+#list-dark-users {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around flex;
+}
+
+#list-light-users {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around flex;
+}
+
+.form-item {
+  display: inline-grid;
+  flex-wrap: wrap;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#header-dark {
+    font-family: 'Poller One', cursive;
+    color: red;
+    text-decoration: underline yellow;
+    -webkit-text-stroke: 0.1px yellow;
+}
+
+#header-light {
+    font-family: 'Poller One', cursive;
+    color: blue;
+    text-decoration: underline yellowx;
+    -webkit-text-stroke: 0.1px yellow;
+}
+
+#alignment-text {
+  padding-right: 10px;
+}
+
+#form-item-radio {
+  display: flex;
+}
+
+#light-side-button{
+  color: blue;
+  padding-right: 10px;
+  padding-left: 5px;
+  -webkit-text-stroke: 1px yellow;
+  text-shadow: 4px -2px 1px blue;
+}
+
+#dark-side-button{
+  color: red;
+  padding-right: 10px;
+  padding-left: 5px;
+  -webkit-text-stroke: 1px yellow;
+  text-shadow: 4px -2px 1px red;
+}
+
+body {
+  color: white;
+  background-image: url("../public/images/background_image.jpg");
+}
+
+.inside-list-item{
+  padding: 10px;
+}
